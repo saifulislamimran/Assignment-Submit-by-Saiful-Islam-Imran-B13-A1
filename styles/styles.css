@@ -268,3 +268,41 @@ header #banner {
     height: 24px;  
     object-fit: contain; 
 }
+.early-access {
+    padding: 80px 0;
+    text-align: center; 
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+}
+
+.ea-container h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #111;
+}
+
+.email-box {
+    display: flex;         
+    justify-content: center; 
+    align-items: center;
+    gap: 16px;             
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.email-box input {
+    padding: 12px 24px;    
+    border: 1px solid #ddd;
+    border-radius: 8px;   
+    width: 300px;         
+    font-size: 16px;
+    outline: none;         
+    background-color: #F8F9FA;
+}
+
+.small-text {
+    color: #777;
+    font-size: 14px;
+}
